@@ -11,5 +11,6 @@ db.connection = new Sequelize(config.database, config.username, config.password,
 });
 
 // cargamos los modelos a la BBDD
+db.UserModel = require('../models/auth/user.model')(db.connection, DataTypes);
 
 module.exports = db;
