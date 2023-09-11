@@ -1,0 +1,9 @@
+DB_USERNAME=root
+DB_PASSWORD=
+DB_DATABASE=deportes
+DB_HOST=localhost
+DB_DIALECT=mysql
+
+JWT_SECRET=PalabraSuperSecretaParaJWTHolaHolaAloh12443
+
+PORT=2002
